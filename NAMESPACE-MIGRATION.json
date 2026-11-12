@@ -1,0 +1,55 @@
+{
+  "baseSource": "8a58e917069ed1ce7c48c99b30d70c5587db564f",
+  "date": "2026-11-12",
+  "formatVersion": 1,
+  "licenseUnchanged": true,
+  "originalSourceSnapshotRetained": true,
+  "package": "spitzli-hosting",
+  "preservedBindingFilesSHA256": {
+    "COMMERCIAL-LICENSING.md": "5b8832f5014f16e2cf4f7ee295de32760eed20981495d184bd9f1517be256a09",
+    "EXPORT-PROVENANCE.json": "3efb6ef2d6ed7f974e6ca1181df124a7b58ee448051b58c68ec2234744e685a1",
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "manifest.json": "6d1a78ec4ea33d26edd2b4903d9917282aa0f61a8478aeb74b5cf04da0f62229"
+  },
+  "qualifiedChangedSourceSHA256": {
+    "Cargo.lock": "69731a0ee7291e59483937abfa9cb9d7f82aeb1d536e08d8ce3ab8afeb01d455",
+    "Cargo.toml": "9380151c26709cbdaa945b5a6204bb86e9c6d76fdb3c908bd0a3851ebab5cc4e",
+    "Dockerfile": "78741ceee503ea3e747f531c4e04b89f14e98683c064e2459ba4d53996345b14",
+    "NOTICE": "4949ccd63735c148d2fd1f1423772d11938087ba0bdbcf4aad81c576bcfa09b8",
+    "README.md": "ead3fc5de320a229d925c2c17bd63bdbdc735acd2d97916e47a706a3c9bbbdc6",
+    "scripts/plugin-release/release.mjs": "30462a348f238bc78dab840688199574ad4fc5e9b039310306d6210f4c433890",
+    "src/lib.rs": "9e42b1c43a0649c4e43fbc7b1add0fbfe9613182bd239da7ccfa3be538afa894",
+    "src/main.rs": "9d9757c0335e0ee85c462669f50ce9b37c23146b3aead364413256bcd79f6292",
+    "src/placement.rs": "4432477fa4df55c7107da2f9f2706ba85fc5f439c59680a1c79fb79ec694dd1e",
+    "src/store.rs": "864310bbee3d21619c8836413ab3987824f151cf2a41290aab9ac20a9e301dbb",
+    "standalone.json": "a5b4adfa5df4e1e98be939216a8cada4bd95e7d1ce8703d6cac8943b31157156",
+    "tests/apps.rs": "cea88119d2762105e2e29ef739d5ed66f2503abd3b9997b1686b2f1649b14707",
+    "tools/manifest-validator/Cargo.lock": "ae2cb28761abf9ce99c9f5c4df246d47d61955a9919907fd222f511d13d84ba6",
+    "tools/manifest-validator/Cargo.toml": "81aa8724804a7f701f7b312c8851937369409d029071d2034dbd6f535b86df6a",
+    "tools/manifest-validator/src/main.rs": "bb5f5ab38c63e2c28aa64a329696e923aa747e62de2d058e2de734ada06e72b4",
+    "ui/index.tsx": "64e25d3d5bf9387e3248a485912c37be5d3a9119c2bd44d3e798af25d1c19144"
+  },
+  "runtimeArtifactsReplaced": false,
+  "scope": "Rust package/import and binary namespace, host UI import namespace, paired test environment variables and exact SDK pin",
+  "sdkGit": "https://github.com/spitzli/cloud-plugin-sdk",
+  "sdkRevision": "8019f3df67dba3fed3083f22635e4725028c1b5e",
+  "sourceChecks": {
+    "allRegistryLockfilesPreserved": [
+      "Cargo.lock",
+      "tools/manifest-validator/Cargo.lock"
+    ],
+    "format": true,
+    "releaseContract": true,
+    "rustLiteralFilesChecked": 6,
+    "strictClippy": true,
+    "testsIgnored": 2,
+    "testsPassed": 4,
+    "ui": {
+      "component": "hosting",
+      "hostConsoleSource": "a9fa78a6264a64a5e3e9405a49d94da189f7638b",
+      "typecheckPassed": true
+    }
+  },
+  "version": "0.1.0",
+  "wireStoredCryptographicAndExternalResourceBindings": "retained for coordinated migration"
+}
